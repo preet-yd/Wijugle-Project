@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class=" bg-gradient-to-l from-blue-900 to-blue-300 ...">
+  <header class="bg-blue-950 flex justify-end pr-6 pb-2 text-xs">
+    <select class="text-black">
+      <option value="ca_ES">Catalan</option>
+      <option value="cs_CZ">Česky</option>
+      <option value="da_DK">Dansk</option>
+      <option value="de_DE">Deutsch</option>
+      <option value="en_US" selected="selected">English</option>
+      <option value="es_ES">Español</option>
+      <option value="fr_FR">Français</option>
+      <option value="hu_HU">Magyar</option>
+      <option value="is_IS">íslenska</option>
+      <option value="it_IT">Italiano</option>
+      <option value="ja_JP">日本語</option>
+      <option value="ko_KR">한국어</option>
+      <option value="nl_NL">Nederlands</option>
+      <option value="pl_PL">Polski</option>
+      <option value="pt_BR">Português (BR)</option>
+      <option value="ru_RU">Русский</option>
+      <option value="zh_CN">简体中文</option>
+      <option value="zh_TW">繁體中文</option>
+    </select>
+  </header>
+
+  <main class="flex flex-col justify-center items-center gap-10 self-stretch pt-52 rounded-full">
+    <div class="flex justify-center items-center gap-5">
+      <img class="mb-16" src="../img/barracuda-firewall.png" alt="">
+      <p class="text-neutral-50 font-inter text-5xl font-bold pt-8 border-l-2 border-separate pl-4">Web Application Firewall</p>
+    </div>
+    <div class="bg-gray-100 px-9 py-4 gap-7">
+      <p class="text-black font-inter text-xs font-normal w-full pr-32">Please enter your administrator login and
+        password</p>
+      <div class="flex flex-col gap-2">
+        <input class="text-xl mt-2 py-1 px-1" type="text" value="admin" placeholder="Username" required>
+        <input class="text-xl mt-2 py-1 px-1" type="text" placeholder="Password" required>
+        <div class="flex justify-end w-full ">
+          <button class=" text-white bg-blue-500 p-2 rounded-xl font-inter text-xl font-normal mt-10 mb-5">Sign
+            In</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
